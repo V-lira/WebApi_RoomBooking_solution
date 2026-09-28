@@ -14,6 +14,8 @@ ASP.NET Web API 2, .NET Framework 4.8
 Эндпоинты
 -------
 
+<img width="1478" height="205" alt="image" src="https://github.com/user-attachments/assets/e51ee637-3c21-4ce9-90ce-d9f853cacd9d" />
+
 GET /api/rooms - все комнаты
 
 GET /api/rooms/{id} - одна
@@ -26,6 +28,7 @@ PUT /api/rooms/{id}/deactivate - сделать неактивной
 
 GET /api/rooms/available?start=&end=&participants=&projector=&whiteboard= - свободные на интервал
 
+<img width="1480" height="283" alt="image" src="https://github.com/user-attachments/assets/08030538-cc18-413a-8c64-ac62b46b35e8" />
 
 GET /api/employees, GET /api/employees/{id}
 
