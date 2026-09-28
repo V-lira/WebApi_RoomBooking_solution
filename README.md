@@ -35,7 +35,7 @@ GET /api/employees, GET /api/employees/{id}
 POST /api/employees, PUT /api/employees/{id}
 
 
-GET /api/bookings?employeeId=&roomId=&date=&status= — список с фильтрами
+GET /api/bookings?employeeId=&roomId=&date=&status= -список с фильтрами
 
 GET /api/bookings/{id}
 
