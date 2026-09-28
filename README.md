@@ -60,8 +60,8 @@ GET /api/bookings/{id}/history
 
 Пересечение считается как newStart < existingEnd && newEnd > existingStart. Соседние интервалы (конец = начало следующего) - не пересечение
 
-Статусы: Planned → Started | Cancelled, Started → Finished. Дальше -409
+Статусы: Planned -> Started | Cancelled, Started -> Finished. Дальше -409
 
-Удалять можно только Planned и Cancelled. Started/Finished - 409
+Удалять можно только Planned и Cancelled. Started/Finished -> 409
 
 Запрос к несуществующему id - 404
